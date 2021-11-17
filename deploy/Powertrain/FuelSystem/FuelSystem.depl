@@ -34,6 +34,7 @@ TankCapacity:
       read:
         source:
           method: capacity
+        conversionFunction: fromTankCapacityToCapacity
 
 Level:
   _francaIDL:
